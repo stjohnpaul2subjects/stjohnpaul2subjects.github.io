@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="secindex.css">
+        <title>STJPII Subject Selection</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="navbar" id="myNavbar">
+            <a href="index.html">Home</a>
+            <a href="english.html">English</a>
+            <a href="creativearts.html">Religion</a>
+            <a href="mathematics.html">Mathematics</a>
+            <div class="dropdown">
+                <button class="dropdownbtn">HSIE <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="ancienthistory.html">Ancient History</a>
+                    <a href="businessstudies.html">Business Studies</a>
+                    <a href="economics.html">Economics</a>
+                    <a href="geography.html">Geography</a>
+                    <a href="legalstudies.html">Legal Studies</a>
+                    <a href="modernhistory.html">Modern History</a>
+                    <a href="societyandculture.html">Society and Culture</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdownbtn">Sciences <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="biology.html">Biology</a>
+                    <a href="chemistry.html">Chemistry</a>
+                    <a href="investigatingscience.html">Investigating Science</a>
+                    <a href="physics.html">Physics</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdownbtn">Technologies <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="agriculture.html">Agriculture</a>
+                    <a href="foodtechnology.html">Food Technology</a>
+                    <a href="industrialtechnology.html">Industrial Technology</a>
+                    <a href="informationprocessesandtechnology.html">Information Processes and Technology</a>
+                    <a href="softwaredesignanddevelopment.html">Software Design and Development</a>
+                    <a href="textilesanddesign.html">Textiles and Design</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdownbtn">PDHPE <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="Communityandfamilystudies.html">Community & Family Studies</a>
+                    <a href="pdhpe.html">PDHPE</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropdownbtn" style="background-color: rgb(11, 162, 0);">Creative Arts <i class="fa fa-caret-down"></i></button>
+                <div class="dropdown-content">
+                    <a href="dance.html">Dance</a>
+                    <a href="drama.html">Drama</a>
+                    <a href="music.html">Music 1</a>
+                    <a href="visualarts.html">Visual Arts</a>
+                </div>
+            </div>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myNavbar");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+
+        <p id="breadcrumb"><b><a href="index.html">Home</a> / Creative Arts</b></p>
+
+        <div class="main">
+            <div class="mainsection">
+                <h1 style="text-align: center;">St John Paul II Catholic College</h1>
+                <h2 style="text-align: center;">Information regarding year 11 & 12 subjects</h2>
+                <h2>Creative Art Subjects</h2>
+            </div>
+        </div>
+
+        <div class="container">
+        <a href="dance.html" class="largenav-link">
+            <div class="largenav">
+                <div class="largenavsubject">
+                    <br>
+                    <img src="Images/Dance.png">
+                    <h3>Dance</h3>
+                    <p>Click for information about Dance</p>
+                </div>
+            </div>
+        </a>
+        <a href="drama.html" class="largenav-link">
+            <div class="largenav">
+                <div class="largenavsubject">
+                    <br>
+                    <img src="Images/Drama.png">
+                    <h3>Drama</h3>
+                    <p>Click for information about Drama</p>
+                </div>
+            </div>
+        </a>
+        <a href="music.html" class="largenav-link">
+            <div class="largenav">
+                <div class="largenavsubject">
+                    <br>
+                    <img src="Images/Music.png">
+                    <h3>Music</h3>
+                    <p>Click for information about Music</p>
+                </div>
+            </div>
+        </a>
+        <a href="visualarts.html" class="largenav-link">
+            <div class="largenav">
+                <div class="largenavsubject">
+                    <br>
+                    <img src="Images/VisualArts.png">
+                    <h3>Visual Arts</h3>
+                    <p>Click for information about Visual Arts</p>
+                </div>
+            </div>
+        </a>
+        </div>
+    </body>
+</html>

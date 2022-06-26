@@ -1,0 +1,233 @@
+body {
+    font-family: sans-serif, Arial;
+    background-color: #fff0e5;
+    color: rgb(20, 20, 20);
+    margin: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(50, 50, 50);
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.active {
+    background-color: rgb(11, 162, 0);
+}
+
+.active:hover {
+    background-color: rgb(11, 162, 0)!important;
+    color: white!important;
+}
+
+.navbar .icon {
+    display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropdownbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(50, 50, 50);
+    color: inherit;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.navbar a:hover, .dropdown:hover, .dropdownbtn {
+    background-color: rgb(0, 0, 0);
+    color: rgb(98, 98, 255);
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(98, 98, 255);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar a:not(:first-child), .dropdown .dropdownbtn {
+        display: none;
+    }
+    .navbar a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navbar.responsive {position: relative;}
+    .topnav.reponsive .icon {
+        position: absolute;
+    }
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .navbar.responsive .dropdown {float: none;}
+    .navbar.responsive .dropdown-content {position: relative;}
+    .navbar.responsive .dropdown .dropdownbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.main {
+    border: 1px solid black;
+    transition-duration: 0.5s;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    background-color: rgb(200, 200, 255);
+}
+
+.main:hover {
+    box-shadow: -15px 15px;
+    transition-duration: 0.5s;
+    transform: translate(5px, -5px);
+    background-color: rgb(100, 100, 255);
+}
+
+#breadcrumb {
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#breadcrumb a {
+    color: #0033ff;
+    text-decoration: none;
+}
+
+#breadcrumb a:hover {
+    color: #0000d6;
+}
+
+.largenav:hover {
+    background-color: rgb(160, 255, 160);
+    box-shadow: -10px 10px black;
+    transform: translate(5px, -5px);
+    transition-duration: 0.2s;
+    color: #0000ff;
+    transition-delay: 0s;
+}
+
+.largenav {
+    text-align: center;
+    border: 1px solid black;
+    max-width: 450px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    transition-duration: 0.2s;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    transition-delay: 0s;
+}
+
+.largenav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: minmax(100px, auto);
+  gap: 50px;
+}
+
+img {
+    height: 128px;
+    width: 128px;
+}
+
+.icon {
+    padding: 15px;
+    font-size: 30px;
+    width: 19px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#footer-schoolwebsite {
+    font-size: 18px;
+    text-decoration:none;
+    color: black;
+}
+
+#footer-schoolwebsite:hover {
+    color: #0000ff;
+}
+
+.footer-all {
+    font-size: 17.5px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
